@@ -1,8 +1,7 @@
 <template>
-  <h1>Welcome!</h1>
+  <h1>{{{ $t('welcome') }}}</h1>
   <img src="~../assets/images/logo.png"/>
-  <p><a href="http://webpack.github.io/" target="_blank">Webpack</a> documentation.</p>
-  <p><a href="http://vuejs.github.io/vue-loader/" target="_blank">vue-loader</a> documentation.</p>
+  <p>{{{ $t('text') }}}</p>
 </template>
 
 <script>

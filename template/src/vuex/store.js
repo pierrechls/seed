@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import settings from './../lib/settings.js'
+import settings from 'lib/settings.js'
 
 // Make vue aware of Vuex
 Vue.use(Vuex)
@@ -9,7 +9,8 @@ Vue.use(Vuex)
 // Create an object to hold the initial state when
 // the app starts up
 const state = {
-  count: settings.count.default
+  count: settings.count,
+  lang: settings.lang
 }
 
 // Create an object storing various mutations. We will write the mutation
@@ -19,6 +20,9 @@ const mutations = {
   },
   INCREMENT (state, amount) {
     state.count = state.count + amount
+  },
+  TRANSLATE (state, lang) {
+    state.lang = lang
   }
 }
 
