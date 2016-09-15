@@ -1,5 +1,5 @@
 <template>
-  <h1>{{{ $t('welcome') }}}</h1>
+  <h1>\{{{ $t('welcome') }}}</h1>
   <img src="~../assets/images/logo.png"/>
   <p>{{{ $t('text') }}}</p>
 </template>
