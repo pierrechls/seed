@@ -2,6 +2,7 @@ var path = require('path')
 var config = require('../config/index')
 var utils = require('./utils')
 var projectRoot = path.resolve(__dirname, '../')
+var webpack = require('webpack')
 
 var program = require('commander')
 program
