@@ -1,4 +1,4 @@
-# vuejs template
+# vue-template
 
 > A vue-cli template
 
