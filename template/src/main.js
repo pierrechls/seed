@@ -4,6 +4,7 @@ import App from 'src/App'
 // Global vue stuffs
 import 'gsap'
 import 'src/transitions'
+import 'locales/index'
 
 // Routing
 import VueRouter from 'vue-router'
