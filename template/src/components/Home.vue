@@ -1,5 +1,6 @@
 <template>
-  <p>Welcome!</p>
+  <h1>Welcome!</h1>
+  <img src="~../assets/images/logo.png"/>
   <p><a href="http://webpack.github.io/" target="_blank">Webpack</a> documentation.</p>
   <p><a href="http://vuejs.github.io/vue-loader/" target="_blank">vue-loader</a> documentation.</p>
 </template>
@@ -12,9 +13,15 @@
 
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1 {
-  color: #42b983;
-}
+<style lang="scss" scoped>
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  img{
+    width: 100px;
+    height: 100px;
+  }
+
 </style>
