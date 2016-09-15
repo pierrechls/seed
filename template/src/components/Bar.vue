@@ -1,5 +1,5 @@
 <template>
-  <div class="bar">
+  <div class="bar-view">
     <h1>Bar</h1>
     <p>\{{ count }}</p>
     <button @click='decrementCounter'>-</button>
