@@ -37,7 +37,7 @@ npm run package:darwin
 npm run package:linux
 npm run package:win32
 npm run package:all # All platforms, all architectures
-```
 {{/electron}}
+```
 
 For detailed explanation on how things work, checkout the [guide](http://pierrechls.github.io/vue-template/).
