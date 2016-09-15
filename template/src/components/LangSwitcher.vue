@@ -1,6 +1,6 @@
 <template>
   <div class="lang-switcher">
-    <span @click="translate('nl')" v-bind:class="lang === 'en' ? 'active' : ''">EN</span> |
+    <span @click="translate('en')" v-bind:class="lang === 'en' ? 'active' : ''">EN</span> |
     <span @click="translate('fr')" v-bind:class="lang === 'fr' ? 'active' : ''">FR</span>
   </div>
 </template>
