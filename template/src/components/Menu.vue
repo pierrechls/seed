@@ -1,29 +1,44 @@
 <template>
-  <ul class="list-reset">
-    <li class="inline-block mr1">
-      <a v-link="{ name: 'home' }">home</a>
-    </li>
-    <li class="inline-block mr1">
-      <a v-link="{ name: 'Foo' }">foo</a>
-    </li>
-    <li class="inline-block mr1">
-      <a v-link="{ name: 'Bar' }">bar</a>
-    </li>
-  </ul>
+  <div id="menu">
+    <ul>
+      <li><a v-link="{ name: 'home' }">home</a></li>
+      <li><a v-link="{ name: 'Foo' }">foo</a></li>
+      <li><a v-link="{ name: 'Bar' }">bar</a></li>
+    </ul>
+  </div>
 </template>
 
-<script></script>
+<script>
 
-<style scoped>
-.v-link-active {
-  text-decoration: line-through !important;
-}
-li {
-  display: inline-block;
-  list-style: none;
-  margin-left: 10px;
-}
-li:first-child {
-  margin-left: 0;
-}
+  export default {
+    name: 'Menu'
+  }
+
+</script>
+
+<style lang="scss" scoped>
+
+  #menu{
+
+    .v-link-active {
+      text-decoration: line-through !important;
+    }
+
+    ul{
+      padding: 0;
+      li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 10px;
+
+        a{
+          text-decoration: none;
+        }
+      }
+      li:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
 </style>
