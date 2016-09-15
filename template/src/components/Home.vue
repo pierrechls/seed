@@ -1,7 +1,9 @@
 <template>
-  <h1>\{{{ $t('welcome') }}}</h1>
-  <img src="~../assets/images/logo.png"/>
-  <p>\{{{ $t('text') }}}</p>
+  <div class="home-view">
+    <h1>\{{{ $t('welcome') }}}</h1>
+    <img src="~../assets/images/logo.png"/>
+    <p>\{{{ $t('text') }}}</p>
+  </div>
 </template>
 
 <script>
