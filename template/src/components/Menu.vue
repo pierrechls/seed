@@ -1,5 +1,6 @@
 <template>
   <div id="menu">
+    <lang-switcher></lang-switcher>
     <ul>
       <li><a v-link="{ name: 'home' }">home</a></li>
       <li><a v-link="{ name: 'Foo' }">foo</a></li>
@@ -10,8 +11,13 @@
 
 <script>
 
+  import LangSwitcher from 'components/LangSwitcher.vue'
+
   export default {
-    name: 'Menu'
+    name: 'Menu',
+    components: {
+      LangSwitcher
+    }
   }
 
 </script>
