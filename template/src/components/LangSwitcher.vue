@@ -26,8 +26,15 @@
 
 <style lang="scss" scoped>
 
+  @import "~assets/styles/colors.scss";
+
   span{
     cursor: pointer;
+    color: $gray;
+
+    &.active{
+      color: $green;
+    }
   }
 
 </style>
