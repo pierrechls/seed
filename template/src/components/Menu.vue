@@ -1,7 +1,7 @@
 <template>
   <ul class="list-reset">
     <li class="inline-block mr1">
-      <a v-link="{ name: 'App', exact: true }">home</a>
+      <a v-link="{ name: 'home' }">home</a>
     </li>
     <li class="inline-block mr1">
       <a v-link="{ name: 'Foo' }">foo</a>

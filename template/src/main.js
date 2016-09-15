@@ -1,9 +1,20 @@
-import 'gsap'
-
 import Vue from 'vue'
-import router from './router'
-import './transitions'
+import App from 'src/App'
 
-const App = Vue.extend({})
+// Global vue stuffs
+import 'gsap'
+import 'src/transitions'
 
+// Routing
+import VueRouter from 'vue-router'
+import routes from 'data/routes'
+
+Vue.use(VueRouter)
+var router = new VueRouter({
+  history: false,
+  transitionOnLoad: true
+})
+router.map(routes)
+router.alias({ '/': '/home' })
 router.start(App, 'body')
+router.redirect({ '*': '/home' })
