@@ -2,6 +2,7 @@
   <div class="garden-view">
     <h1>Garden</h1>
     <img v-for="n in seedNumber" src="~../assets/images/seed.svg" />
+    <p v-if="seedNumber == 0">\{{{ $t('garden.noSeed') }}}</p>
   </div>
 </template>
 
