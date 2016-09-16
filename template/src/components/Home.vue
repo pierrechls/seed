@@ -1,8 +1,8 @@
 <template>
   <div class="home-view">
-    <h1>\{{{ $t('welcome') }}}</h1>
+    <h1>\{{{ $t('home.title') }}}</h1>
     <img src="~../assets/images/logo.png"/>
-    <p>\{{{ $t('text') }}}</p>
+    <p>\{{{ $t('home.text') }}}</p>
   </div>
 </template>
 
