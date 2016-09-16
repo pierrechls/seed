@@ -1,4 +1,4 @@
-# seed 🌱 
+# seed 🌱
 
 [![version](https://img.shields.io/badge/version-1.0-green.svg?style=flat-square)](https://github.com/pierrechls/seed) [![Build status](https://img.shields.io/badge/build-passing-green.svg?style=flat-square)](https://img.shields.io/badge/build-passing-green.svg?style=flat-square) [![front-end-framework](https://img.shields.io/badge/framework-vue.js-lightgrey.svg?style=flat-square)](http://vuejs.org/) [![router](https://img.shields.io/badge/router-vue--router-lightgrey.svg?style=flat-square)](http://router.vuejs.org/en/index.html) [![internationalization](https://img.shields.io/badge/internationalization-vue--i18n-lightgrey.svg?style=flat-square)](https://github.com/kazupon/vue-i18n) [![js-standard-style](https://img.shields.io/badge/code_style-standard-lightgrey.svg?style=flat-square)](http://standardjs.com/) [![sass-stylesheets](https://img.shields.io/badge/stylesheets-sass-lightgrey.svg?style=flat-square)](http://sass-lang.com/)
 
@@ -6,10 +6,11 @@
 
 ## How to use
 
+Please read the [documentation](https://pierrechls.github.io/seed/)📚
 
 #### Install vue-cli as global
 
-``` 
+```
 $ npm install -g vue-cli
 ```
 
@@ -21,10 +22,6 @@ $ cd my-project                           # go to your project folder
 $ npm install                             # install dependencies
 $ npm run dev                             # serve with hot reload
 ```
-
-## Documentation
-
-Coming soon
 
 ## What's included
 
@@ -50,7 +47,7 @@ Coming soon
   - Package for Windows/OS X/Linux
   - Remove all `devDependencies` from the packaged binary, reducing final size a lot
 
-### Fork It And Make Your Own
+## Fork It And Make Your Own
 
 You can fork this repo to create your own template, and use it with `vue-cli`:
 
@@ -58,6 +55,6 @@ You can fork this repo to create your own template, and use it with `vue-cli`:
 vue init username/repo my-project
 ```
 
-### Credits
+## Credits
 
 This is inspired from [nd template](https://github.com/soixantecircuits/nd). This is originally a fork of the [webpack](https://github.com/vuejs-templates/webpack) template. Most credit goes to them! 👏
