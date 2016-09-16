@@ -9,7 +9,7 @@ module.exports = {
       type: 'string',
       required: false,
       message: 'Project description',
-      default: 'A vue-cli project'
+      default: 'A vue-cli project who plants seeds'
     },
     author: {
       type: 'string',
@@ -30,5 +30,5 @@ module.exports = {
         : `  cd ${process.argv[3]}\n`
     }
   },
-  completeMessage: 'To get started:\n\n{{chandeDirectory}}  npm install\n  npm start\n\nDocumentation can be found at https://pierrechls.github.io/vue-template'
+  completeMessage: 'To get started:\n\n{{chandeDirectory}}  npm install\n  npm start\n\nDocumentation can be found at https://pierrechls.github.io/seed'
 }
