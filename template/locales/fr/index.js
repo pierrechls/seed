@@ -4,7 +4,7 @@ module.exports = {
     'text': 'Merci de lire la <a href="https://pierrechls.github.io/seed" target="_blank">documentation</a></p>'
   },
   'plant': {
-    'seedText': 'graîne est plantée',
+    'seedText': 'graîne plantée',
     'seedsText': 'graînes sont plantées'
   },
   'garden': {
