@@ -1,48 +1,54 @@
-# vue-template
+# seed 🌱 
 
-> A vue-cli template
+[![front-end-framework](https://img.shields.io/badge/framework-vue.js-lightgrey.svg?style=flat-square)](http://vuejs.org/) [![router](https://img.shields.io/badge/router-vue--router-lightgrey.svg?style=flat-square)](http://router.vuejs.org/en/index.html) [![internationalization](https://img.shields.io/badge/internationalization-vue--i18n-lightgrey.svg?style=flat-square)](https://github.com/kazupon/vue-i18n) [![npm-version](https://img.shields.io/badge/npm-v3.0.0-lightgrey.svg?style=flat-square)](https://www.npmjs.com/) [![js-standard-style](https://img.shields.io/badge/code_style-standard-lightgrey.svg?style=flat-square)](http://standardjs.com/) [![sass-stylesheets](https://img.shields.io/badge/stylesheets-sass-lightgrey.svg?style=flat-square)](http://sass-lang.com/) [![version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](https://github.com/pierrechls/seed)
 
-[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
+> A vue-cli template who plants the first seed of your project in order to become a sturdy and flowering tree
+
+## How to use
+
+
+#### Install vue-cli as global
+
+``` 
+$ npm install -g vue-cli
+```
+
+#### Init your project
+
+``` bash
+$ vue init pierrechls/seed my-project     # init template
+$ cd my-project                           # go to your project folder
+$ npm install                             # install dependencies
+$ npm run dev                             # serve with hot reload
+```
 
 ## Documentation
 
 Coming soon
 
-## Usage
+## What's included
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It is recommended to use npm 3+ for a more efficient dependency tree.**
-
-``` bash
-$ npm install -g vue-cli
-$ vue init pierrechls/vue-template my-project
-$ cd my-project
-$ npm install
-$ npm run dev
-```
-
-## What's Included
-
-- `npm start` or `npm run dev`: first-in-class development experience.
-  - Webpack + `vue-loader` for single file Vue components.
+- `npm start` or `npm run dev`: first-in-class development experience
+  - [Webpack](http://webpack.github.io/) and [vue-loader](http://vuejs.github.io/vue-loader/) for single file Vue components.
   - State preserving hot-reload
   - State preserving compilation error overlay
   - Lint-on-save with ESLint
   - Source maps
-  - Autorun `npm run electron` in Electron enabled apps.
+  - Autorun `npm run electron` in Electron enabled apps
 
-- `npm run build`: Production ready build.
-  - JavaScript minified with [UglifyJS](https://github.com/mishoo/UglifyJS2).
-  - HTML minified with [html-minifier](https://github.com/kangax/html-minifier).
-  - CSS across all components extracted into a single file and minified with [cssnano](https://github.com/ben-eb/cssnano).
-  - All static assets compiled with version hashes for efficient long-term caching, and a production `index.html` is auto-generated with proper URLs to these generated assets.
+- `npm run build`: production ready build
+  - JavaScript minified with [UglifyJS](https://github.com/mishoo/UglifyJS2)
+  - HTML minified with [html-minifier](https://github.com/kangax/html-minifier)
+  - CSS across all components extracted into a single file and minified with [cssnano](https://github.com/ben-eb/cssnano)
+  - All static assets compiled with version hashes for efficient long-term caching, and a production `index.html` is auto-generated with proper URLs to these generated assets
 
-- `npm run electron`: developpers friendly features when working in a dev environment.
-  - Auto opens the devtools.
+- `npm run electron`: developpers friendly features when working in a dev environment
+  - Auto opens the devtools
 
-- `npm run package`: Package your app for distribution with [electron-packager](https://github.com/electron-userland/electron-packager).
-  - Portable version of your app (NodeJS and WebKit embedded).
-  - Package for Windows/OS X/Linux.
-  - Remove all `devDependencies` from the packaged binary, reducing final size a lot.
+- `npm run package`: package your app for distribution with [electron-packager](https://github.com/electron-userland/electron-packager)
+  - Portable version of your app (NodeJS and WebKit embedded)
+  - Package for Windows/OS X/Linux
+  - Remove all `devDependencies` from the packaged binary, reducing final size a lot
 
 ### Fork It And Make Your Own
 
