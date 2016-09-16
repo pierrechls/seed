@@ -8,6 +8,6 @@ module.exports = {
     'seedsText': 'seeds are planted'
   },
   'garden': {
-    'noSeed': 'Vous n\'avez aucune graîne de plantée'
+    'noSeed': 'You don\'t have planted seed'
   }
 }
