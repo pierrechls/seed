@@ -1,7 +1,7 @@
 <template>
   <div class="home-view">
     <h1>\{{{ $t('home.title') }}}</h1>
-    <img src="~../assets/images/logo.png"/>
+    <img src="~../assets/images/logo.svg"/>
     <p>\{{{ $t('home.text') }}}</p>
   </div>
 </template>
