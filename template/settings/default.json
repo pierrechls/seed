@@ -1,8 +1,7 @@
 {
   "seed": {
     "default": 3,
-    "max": 12,
-    "min": 0
+    "max": 12
   },
   "lang": "en"
 }
