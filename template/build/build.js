@@ -24,7 +24,7 @@ var spinner = ora({
   text:'building for production...',
   spinner: {
     interval: 60,
-    frames: [' 🚀       ', '💥 🚀      ', '☁ 🚀      ', '☁ ☁ 🚀    ', '☁ ☁ ☁ 🚀', '☁ ☁ ☁ ☁ 🚀', '        ✨', '         ']
+    fframes: ['🌱            ', '  🌱          ', '    🌱        ', '    🌿        ', '      🌿      ', '        🌿    ', '        🌳    ', '          🌳  ', '            🌳']
   }
 })
 spinner.start()
