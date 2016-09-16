@@ -18,7 +18,7 @@
     data: function () {
       return {
         maxSeed: settings.seed.max,
-        minSeed: settings.seed.min
+        minSeed: 0
       }
     },
     vuex: {
