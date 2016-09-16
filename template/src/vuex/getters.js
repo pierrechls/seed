@@ -1,2 +1,2 @@
-export const getCount = state => state.count
+export const getSeed = state => state.seed
 export const getLang = state => state.lang

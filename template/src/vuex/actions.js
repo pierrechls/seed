@@ -1,9 +1,9 @@
-export const decrementCounter = function ({ dispatch, state }) {
-  dispatch('DECREMENT', 1)
+export const plant = function ({ dispatch, state }) {
+  dispatch('PLANT', 1)
 }
 
-export const incrementCounter = function ({ dispatch, state }) {
-  dispatch('INCREMENT', 1)
+export const pullUp = function ({ dispatch, state }) {
+  dispatch('PULL_UP', 1)
 }
 
 export const translate = function ({ dispatch, state }, lang) {

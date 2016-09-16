@@ -1,4 +1,8 @@
 {
-  "count": 5,
+  "seed": {
+    "default": 4,
+    "max": 12,
+    "min": 0
+  },
   "lang": "en"
 }

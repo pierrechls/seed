@@ -1,18 +1,18 @@
 import Home from 'components/Home'
-import Foo from 'components/Foo'
-import Bar from 'components/Bar'
+import Plant from 'components/Plant'
+import Garden from 'components/Garden'
 
 module.exports = {
   '/home': {
-    name: 'home',
+    name: 'Home',
     component: Home
   },
-  '/foo': {
-    name: 'Foo',
-    component: Foo
+  '/plant': {
+    name: 'Plant',
+    component: Plant
   },
-  '/bar': {
-    name: 'Bar',
-    component: Bar
+  '/garden': {
+    name: 'Garden',
+    component: Garden
   }
 }

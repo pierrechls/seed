@@ -2,9 +2,9 @@
   <div id="menu">
     <lang-switcher></lang-switcher>
     <ul>
-      <li><a v-link="{ name: 'home' }">home</a></li>
-      <li><a v-link="{ name: 'Foo' }">foo</a></li>
-      <li><a v-link="{ name: 'Bar' }">bar</a></li>
+      <li><a v-link="{ name: 'Home' }">home</a></li>
+      <li><a v-link="{ name: 'Plant' }">plant</a></li>
+      <li><a v-link="{ name: 'Garden' }">garden</a></li>
     </ul>
   </div>
 </template>
