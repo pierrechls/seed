@@ -54,7 +54,7 @@ $ npm run build                           # production ready build
 #### Electron support
 
 ``` bash
-$ npm run electron                       # developpers friendly features when working in a dev environment
+$ npm run electron                        # developpers friendly features when working in a dev environment
 ```
 
   - auto opens the devtools
@@ -62,7 +62,7 @@ $ npm run electron                       # developpers friendly features when wo
 #### Package
 
 ``` bash
-$ npm run package                        # package your app
+$ npm run package                         # package your app
 ```
 
   - package your app for distribution with [electron-packager](https://github.com/electron-userland/electron-packager)
