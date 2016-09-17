@@ -6,7 +6,7 @@
 
 ## How to use
 
-Please read the [documentation](https://pierrechls.github.io/seed/)📚
+Please read the [documentation](https://pierrechls.github.io/seed/) &nbsp; 📚
 
 #### Install vue-cli as global
 
