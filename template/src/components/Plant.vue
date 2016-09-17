@@ -38,6 +38,10 @@
 
   @import "~assets/styles/colors.scss";
 
+  h1{
+    text-transform: uppercase;
+  }
+
   button{
     background: $green;
     padding: 5px 20px;
