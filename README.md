@@ -10,13 +10,13 @@ Please read the [documentation](https://pierrechls.github.io/seed/) &nbsp;📚
 
 #### Install vue-cli as global
 
-```
+``` bash
 $ npm install -g vue-cli
 ```
 
 #### Init your project
 
-```
+``` bash
 $ vue init pierrechls/seed my-project     # init template
 $ cd my-project                           # go to your project folder
 $ npm install                             # install dependencies
@@ -28,7 +28,7 @@ $ npm run dev                             # serve with hot reload
 
 #### Development environment
 
-```
+``` bash
 $ npm start                               # first-in-class development experience (or `npm run dev`)
 ```
 
@@ -41,7 +41,7 @@ $ npm start                               # first-in-class development experienc
 
 #### Production environment
 
-```
+``` bash
 $ npm run build                           # production ready build
 ```
 
@@ -53,7 +53,7 @@ $ npm run build                           # production ready build
 
 #### Electron support
 
-```
+``` bash
 $ npm run electron                       # developpers friendly features when working in a dev environment
 ```
 
@@ -61,7 +61,7 @@ $ npm run electron                       # developpers friendly features when wo
 
 #### Package
 
-```
+``` bash
 $ npm run package                        # package your app
 ```
 
@@ -75,7 +75,7 @@ $ npm run package                        # package your app
 
 You can fork this repo to create your own template, and use it with `vue-cli`:
 
-```
+``` bash
 $ vue init username/repo my-project
 ```
 
