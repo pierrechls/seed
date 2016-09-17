@@ -1,6 +1,6 @@
 <template>
   <div class="plant-view">
-    <h1>Plant</h1>
+    <h1>\{{{ $t('plant.title') }}}</h1>
     <p>\{{ seedNumber }} <span v-if="seedNumber <= 1">\{{{ $t('plant.seedText') }}}</span><span v-else>\{{{ $t('plant.seedsText') }}}</span></p>
     <button @click='plant' :disabled="seedNumber <= minSeed">-</button>
     <button @click='pullUp' :disabled="seedNumber >= maxSeed">+</button>
