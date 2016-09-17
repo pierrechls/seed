@@ -2,9 +2,9 @@
   <div id="menu">
     <lang-switcher></lang-switcher>
     <ul>
-      <li><a v-link="{ name: 'Home' }">home</a></li>
-      <li><a v-link="{ name: 'Plant' }">plant</a></li>
-      <li><a v-link="{ name: 'Garden' }">garden</a></li>
+      <li><a v-link="{ name: 'Home' }">\{{{ $t('menu.home') }}}</a></li>
+      <li><a v-link="{ name: 'Plant' }">\{{{ $t('menu.plant') }}}</a></li>
+      <li><a v-link="{ name: 'Garden' }">\{{{ $t('menu.garden') }}}</a></li>
     </ul>
   </div>
 </template>
