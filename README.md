@@ -4,7 +4,7 @@
 
 > A vue-cli template who plants the first seed of your project in order to become a sturdy and flowering tree
 
-## How to use
+## How to use it
 
 Please read the [documentation](https://pierrechls.github.io/seed/) &nbsp;📚
 
