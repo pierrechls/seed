@@ -11,7 +11,7 @@
 npm install
 
 # serve with hot reload at localhost:8080
-# -t (or --target=) option is optionnal and override the default webpack target (https://webpack.github.io/docs/configuration.html#target)
+# -t (or --target=) option is optionnal and override the default webpack target
 npm start [-- -t {target}] # or `npm run dev`
 
 # launch electron and open a window at localhost:8080
@@ -40,4 +40,4 @@ npm run package:all # All platforms, all architectures
 {{/electron}}
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://pierrechls.github.io/vue-template/).
+For detailed explanation on how things work, checkout the [guide](http://pierrechls.github.io/seed).
