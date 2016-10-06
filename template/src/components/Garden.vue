@@ -23,6 +23,10 @@
 
 <style lang="scss" scoped>
 
+  h1{
+    text-transform: uppercase;
+  }
+
   img{
     width: 40px;
     height: 40px;
