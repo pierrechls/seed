@@ -7,17 +7,14 @@ import 'src/transitions'
 import 'locales/index'
 
 // Routing
-import VueRouter from 'vue-router'
-import routes from 'data/routes'
+import router from 'lib/router'
 
-Vue.use(VueRouter)
-var router = new VueRouter({
-  history: false,
-  routes: routes
-})
+// Store
+import store from 'src/vuex/store'
 
 new Vue({
-  el: 'body',
+  el: '#app',
   router: router,
+  store: store,
   render: h => h(App)
 })
