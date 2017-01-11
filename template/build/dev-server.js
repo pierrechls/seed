@@ -4,9 +4,9 @@ var webpack = require('webpack')
 var config = require('../config/index')
 var proxyMiddleware = require('http-proxy-middleware')
 var webpackConfig = require('./webpack.dev.conf')
-{{#if_eq electron false}}
+{{#!electron}}
 var opn = require('opn')
-{{/if_eq}}
+{{/electron}}
 
 // default port where dev server listens for incoming traffic
 var port = process.env.PORT || config.dev.port
@@ -63,9 +63,9 @@ module.exports = app.listen(port, function (err) {
     return
   }
   console.log('Listening at http://localhost:' + port + '\n')
-  {{#if_eq electron false}}
+  {{#!electron}}
   opn(`http://localhost:${port}`)
-  {{/if_eq}}
+  {{/electron}}
 
   {{#electron}}
   require('child_process').exec('npm run electron')
