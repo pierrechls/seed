@@ -21,7 +21,7 @@ module.exports = {
     }
   },
   filters: {
-    'electron/**/*': 'electron'
+    'electron/:*+/*': 'electron'
   },
   helpers: {
     chandeDirectory: () => {
