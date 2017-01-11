@@ -1,29 +1,26 @@
 <template>
   <div id="app">
-    <menu></menu>
-    <transition name="default">
+    <menu-app></menu-app>
+    <!-- <transition name="default"> -->
       <router-view></router-view>
-    <transition>
+    <!-- <transition> -->
   </div>
 </template>
 
 <script>
 
-  import store from 'src/vuex/store'
-  import Menu from 'components/Menu.vue'
+  import MenuApp from 'components/Menu.vue'
 
   export default {
     name: 'App',
-    el: '#app',
     components: {
-      Menu
+      MenuApp
     },
     route: {
       data: function (transition) {
 
       }
-    },
-    store
+    }
   }
 
 </script>
