@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <menu></menu>
-    <router-view transition="default"></router-view>
+    <transition name="default">
+      <router-view></router-view>
+    <transition>
   </div>
 </template>
 
@@ -12,7 +14,7 @@
 
   export default {
     name: 'App',
-    replace: false,
+    el: '#app',
     components: {
       Menu
     },
