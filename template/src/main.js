@@ -13,9 +13,11 @@ import routes from 'data/routes'
 Vue.use(VueRouter)
 var router = new VueRouter({
   history: false,
-  transitionOnLoad: true
+  routes: routes
 })
-router.map(routes)
-router.alias({ '/': '/home' })
-router.start(App, 'body')
-router.redirect({ '*': '/home' })
+
+new Vue({
+  el: 'body',
+  router: router,
+  render: h => h(App)
+})
