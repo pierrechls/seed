@@ -1,8 +1,8 @@
 <template>
   <div class="garden-view">
-    <h1>\{{{ $t('garden.title') }}}</h1>
+    <h1 v-html="$t('garden.title')"></h1>
     <img v-for="n in seedNumber" src="~../assets/images/seed.svg" />
-    <p v-if="seedNumber == 0">\{{{ $t('garden.noSeed') }}}</p>
+    <p v-if="seedNumber == 0" v-html="$t('garden.noSeed')"></p>
   </div>
 </template>
 

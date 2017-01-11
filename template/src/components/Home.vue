@@ -1,8 +1,8 @@
 <template>
   <div class="home-view">
-    <h1>\{{{ $t('home.title') }}}</h1>
+    <h1 v-html="$t('home.title')"></h1>
     <img src="~../assets/images/logo.svg"/>
-    <p>\{{{ $t('home.text') }}}</p>
+    <p v-html="$t('home.text')"></p>
   </div>
 </template>
 
