@@ -2,9 +2,9 @@
   <div id="menu">
     <lang-switcher></lang-switcher>
     <ul>
-      <li><router-link to="{ name: 'Home' }" v-html="$t('menu.home')"></router-link></li>
-      <li><router-link to="{ name: 'Plant' }" v-html="$t('menu.plant')"></router-link></li>
-      <li><router-link to="{ name: 'Garden' }" v-html="$t('menu.garden')"></router-link></li>
+      <li><router-link :to="{ name: 'Home' }" v-html="$t('menu.home')"></router-link></li>
+      <li><router-link :to="{ name: 'Plant' }" v-html="$t('menu.plant')"></router-link></li>
+      <li><router-link :to="{ name: 'Garden' }" v-html="$t('menu.garden')"></router-link></li>
     </ul>
   </div>
 </template>
