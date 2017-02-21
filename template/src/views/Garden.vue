@@ -8,13 +8,11 @@
 
 <script>
 
-  import { getSeed } from 'src/vuex/getters'
-
   export default {
     name: 'Garden',
-    vuex: {
-      getters: {
-        seedNumber: getSeed
+    computed: {
+      seedNumber() {
+        return this.$store.state.seed
       }
     }
   }
@@ -26,7 +24,6 @@
   h1{
     text-transform: uppercase;
   }
-
   img{
     width: 40px;
     height: 40px;

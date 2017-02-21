@@ -10,7 +10,7 @@ import 'locales/index'
 import router from 'lib/router'
 
 // Store
-import store from 'src/vuex/store'
+import store from 'src/store'
 
 new Vue({
   el: '#app',
