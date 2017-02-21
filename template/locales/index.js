@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
-import store from 'src/vuex/store'
+import store from 'src/store'
 
 Vue.use(VueI18n)
 Vue.config.lang = store.state.lang

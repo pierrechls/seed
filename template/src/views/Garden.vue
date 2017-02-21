@@ -8,13 +8,11 @@
 
 <script>
 
-  import { getSeed } from 'src/vuex/getters'
-
   export default {
     name: 'Garden',
-    vuex: {
-      getters: {
-        seedNumber: getSeed
+    computed: {
+      seedNumber() {
+        return this.$store.state.seed
       }
     }
   }
