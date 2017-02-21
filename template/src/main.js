@@ -7,7 +7,7 @@ import 'src/transitions'
 import 'locales/index'
 
 // Routing
-import router from 'lib/router'
+import router from 'src/router'
 
 // Store
 import store from 'src/store'
