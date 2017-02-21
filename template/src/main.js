@@ -3,14 +3,13 @@ import App from 'src/App'
 
 // Global vue stuffs
 import 'gsap'
-import 'src/transitions'
 import 'locales/index'
 
 // Routing
-import router from 'lib/router'
+import router from 'src/router'
 
 // Store
-import store from 'src/vuex/store'
+import store from 'src/store'
 
 new Vue({
   el: '#app',

@@ -9,8 +9,6 @@
 
 <script>
 
-  import { plant, pullUp } from 'src/vuex/actions'
-  import { getSeed } from 'src/vuex/getters'
   import settings from 'lib/settings'
 
   export default {
@@ -21,13 +19,17 @@
         minSeed: 0
       }
     },
-    vuex: {
-      getters: {
-        seedNumber: getSeed
+    computed: {
+      seedNumber() {
+        return this.$store.state.seed
+      }
+    },
+    methods: {
+      plant: function () {
+        this.$store.dispatch('plant')
       },
-      actions: {
-        plant,
-        pullUp
+      pullUp: function () {
+        this.$store.dispatch('pullUp')
       }
     }
   }
