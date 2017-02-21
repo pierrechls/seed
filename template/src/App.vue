@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <menu-app></menu-app>
-    <transition name="fade" mode="out-in">
+    <!-- <transition name="default"> -->
       <router-view></router-view>
-    </transition>
+    <!-- <transition> -->
   </div>
 </template>
 
@@ -26,4 +26,3 @@
 </script>
 
 <style lang="scss" src="assets/styles/app.scss"></style>
-<style lang="scss" src="src/transitions/fade.scss"></style>

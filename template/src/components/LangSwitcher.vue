@@ -7,19 +7,17 @@
 
 <script>
 
+  import { getLang } from 'src/vuex/getters'
+  import { translate } from 'src/vuex/actions'
+
   export default {
     name: 'LangSwitcher',
-    computed: {
-      lang() {
-        return this.$store.state.lang
-      }
-    },
-    methods: {
-      translate: function (lang) {
-        this.$store.dispatch('translate', lang)
+    vuex: {
+      getters: {
+        lang: getLang
       },
-      pullUp: function () {
-        this.$store.dispatch('translate', lang)
+      actions: {
+        translate
       }
     }
   }

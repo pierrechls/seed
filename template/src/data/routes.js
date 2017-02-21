@@ -1,6 +1,6 @@
-import Home from 'views/Home'
-import Plant from 'views/Plant'
-import Garden from 'views/Garden'
+import Home from 'components/Home'
+import Plant from 'components/Plant'
+import Garden from 'components/Garden'
 
 module.exports = [
   {
