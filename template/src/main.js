@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from 'src/App'
 
+// Import favicon
+import 'assets/images/favicon.png'
+
 // Global vue stuffs
 import 'gsap'
 import 'locales/index'
