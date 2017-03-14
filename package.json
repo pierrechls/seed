@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "A vue-cli template who plants the first seed of your project in order to become a sturdy and flowering tree",
   "scripts": {
-    "docs": "cd docs && gitbook serve",
-    "deploy-docs": "bash ./deploy-docs.sh"
+    "serve-doc": "cd documentation && gitbook serve",
+    "deploy-doc": "bash ./deploy-doc.sh"
   }
 }
