@@ -19,7 +19,7 @@ $ npm install -g vue-cli
 ``` bash
 $ vue init pierrechls/seed my-project     # init template
 $ cd my-project                           # go to your project folder
-$ npm install                             # install dependencies
+$ npm install                             # install dependencies (or `yarn`)
 $ npm run dev                             # serve with hot reload
 ```
 
