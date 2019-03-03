@@ -7,30 +7,27 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 
-  import settings from 'lib/settings'
+  import { Component, Vue } from 'vue-property-decorator';
+  import settings from 'settings/default.json';
 
-  export default {
-    name: 'Plant',
-    data: function () {
-      return {
-        maxSeed: settings.seed.max,
-        minSeed: 0
-      }
-    },
-    computed: {
-      seedNumber() {
-        return this.$store.state.seed
-      }
-    },
-    methods: {
-      plant: function () {
-        this.$store.dispatch('plant')
-      },
-      pullUp: function () {
-        this.$store.dispatch('pullUp')
-      }
+  @Component
+  export default class Plant extends Vue {
+
+    private maxSeed: number = settings.seed.max;
+    private minSeed: number = 0;
+
+    get seedNumber(): number {
+      return this.$store.state.seed;
+    }
+
+    public plant() {
+      this.$store.dispatch('plant');
+    }
+
+    public pullUp() {
+      this.$store.dispatch('pullUp');
     }
   }
 
@@ -38,7 +35,7 @@
 
 <style lang="scss" scoped>
 
-  @import "~assets/styles/colors.scss";
+  @import "@/assets/styles/colors.scss";
 
   h1{
     text-transform: uppercase;
@@ -47,6 +44,7 @@
   button{
     background: $green;
     padding: 5px 20px;
+    margin: 0 10px;
     color: $white;
     border: 0;
     border-radius: 0;

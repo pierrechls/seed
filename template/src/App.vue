@@ -7,23 +7,19 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 
-  import MenuApp from 'components/Menu'
+  import MenuApp from '@/components/Menu.vue';
+  import { Component, Prop, Vue } from 'vue-property-decorator';
 
-  export default {
-    name: 'App',
+  @Component ({
     components: {
-      MenuApp
+      MenuApp,
     },
-    route: {
-      data: function (transition) {
-
-      }
-    }
-  }
+  })
+  export default class App extends Vue {}
 
 </script>
 
-<style lang="scss" src="assets/styles/app.scss"></style>
-<style lang="scss" src="src/transitions/fade.scss"></style>
+<style lang="scss" src="@/assets/styles/app.scss"></style>
+<style lang="scss" src="@/transitions/fade.scss"></style>

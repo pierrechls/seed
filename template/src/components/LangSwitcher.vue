@@ -5,22 +5,19 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 
-  export default {
-    name: 'LangSwitcher',
-    computed: {
-      lang() {
-        return this.$store.state.lang
-      }
-    },
-    methods: {
-      translate: function (lang) {
-        this.$store.dispatch('translate', lang)
-      },
-      pullUp: function () {
-        this.$store.dispatch('translate', lang)
-      }
+  import { Component, Prop, Vue } from 'vue-property-decorator';
+
+  @Component
+  export default class LangSwitcher extends Vue {
+
+    get lang(): string {
+      return this.$store.state.lang;
+    }
+
+    public translate(lang: string) {
+        this.$store.dispatch('translate', lang);
     }
   }
 
@@ -28,7 +25,7 @@
 
 <style lang="scss" scoped>
 
-  @import "~assets/styles/colors.scss";
+  @import "@/assets/styles/colors.scss";
 
   span{
     cursor: pointer;

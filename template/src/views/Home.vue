@@ -1,16 +1,16 @@
 <template>
   <div class="home-view">
     <h1 v-html="$t('home.title')"></h1>
-    <img src="~../assets/images/logo.svg"/>
+    <img src="@/assets/images/logo.svg"/>
     <p v-html="$t('home.text')"></p>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 
-  export default {
-    name: 'Home'
-  }
+  import { Vue } from 'vue-property-decorator';
+
+  export default class Home extends Vue {}
 
 </script>
 

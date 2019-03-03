@@ -15,13 +15,6 @@ module.exports = {
       type: 'string',
       message: 'Author'
     },
-    electron: {
-      type: 'confirm',
-      message: 'Setup Electron support (might break browser support)?'
-    }
-  },
-  filters: {
-    'electron/:*+/*': 'electron'
   },
   helpers: {
     chandeDirectory: () => {
@@ -30,5 +23,5 @@ module.exports = {
         : `  cd ${process.argv[3]}\n`
     }
   },
-  completeMessage: 'To get started:\n\n{{chandeDirectory}}  npm install\n  npm start\n\nDocumentation can be found at https://pierrechls.github.io/seed'
+  completeMessage: 'To get started:\n\n{{chandeDirectory}}  yarn install\n  yarn serve\n\nDocumentation can be found at https://pierrechls.github.io/seed'
 }
