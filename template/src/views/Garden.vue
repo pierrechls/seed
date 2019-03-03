@@ -1,19 +1,24 @@
 <template>
   <div class="garden-view">
     <h1 v-html="$t('garden.title')"></h1>
-    <img v-for="n in seedNumber" src="~../assets/images/seed.svg" />
+    <img v-for="n in seedNumber" v-bind:key="n" src="@/assets/images/seed.svg" />
     <p v-if="seedNumber == 0" v-html="$t('garden.noSeed')"></p>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 
-  export default {
-    name: 'Garden',
-    computed: {
-      seedNumber() {
-        return this.$store.state.seed
-      }
+  import { Component, Vue } from 'vue-property-decorator';
+  import settings from 'settings/default.json';
+
+  @Component
+  export default class Gardin extends Vue {
+
+    private maxSeed: number = settings.seed.max;
+    private minSeed: number = 0;
+
+    get seedNumber(): number {
+      return this.$store.state.seed;
     }
   }
 
