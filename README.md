@@ -16,6 +16,7 @@
 - TypeScript
 - Router (VueRouter)
 - Store (Vuex)
+- i18n (Vue-i18n)
 - CSS Pre-processors (Sass/SCSS with dart-sass)
 - Linter and formatter (TSLint)
 - Unit Testing (Mocha + Chai)
