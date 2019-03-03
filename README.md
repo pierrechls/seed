@@ -4,24 +4,24 @@
 
 > A vue-cli 3 template who plants the first seed of your project in order to become a sturdy and flowering tree
 
-# :grey_exclamation: Prior installation
+## :grey_exclamation: Prior installation
 
 - [Node.js](https://nodejs.org/en/download/)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 - [Vue CLI](https://cli.vuejs.org/guide/installation.html)
 
-# :package: What's included ?
+## :package: What's included ?
 
 - Babel
 - TypeScript
 - Router (VueRouter)
 - Store (Vuex)
 - CSS Pre-processors (Sass/SCSS with dart-sass)
-- TSLint
+- Linter and formatter (TSLint)
 - Unit Testing (Mocha + Chai)
 - E2E Testing (Cypress)
 
-# :video_game: How to use it ?
+## :video_game: How to use it ?
 
 Please read the [documentation](https://pierrechls.github.io/seed/) &nbsp;📚
 
@@ -29,7 +29,7 @@ Please read the [documentation](https://pierrechls.github.io/seed/) &nbsp;📚
 $ vue init pierrechls/seed my-project
 ```
 
-## :twisted_rightwards_arrows: Fork It And Make Your Own
+## :twisted_rightwards_arrows: Fork it and make your own
 
 You can fork this repo to create your own template, and use it with `vue-cli`:
 
