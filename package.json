@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-template",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "license": "MIT",
   "description": "A vue-cli template who plants the first seed of your project in order to become a sturdy and flowering tree",
   "scripts": {
