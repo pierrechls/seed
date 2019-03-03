@@ -1,5 +1,6 @@
 module.exports = {
     title: 'Seed 🌱',
+    base: '/seed/',
     description: 'A vue-cli 3 template who plants the first seed of your project in order to become a sturdy and flowering tree',
     themeConfig: {
         repo: 'pierrechls/seed',
