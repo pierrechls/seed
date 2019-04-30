@@ -10,7 +10,7 @@
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 - [Vue CLI](https://cli.vuejs.org/guide/installation.html)
 
-# :rocket: How to install ?
+## :rocket: How to install ?
 
 #### Clone the repo
 
@@ -24,7 +24,7 @@ $ git clone <YOUR_REPOSITORY_URL>
 $ yarn install
 ```
 
-# :hammer_and_wrench: How to configure ?
+## :hammer_and_wrench: How to configure ?
 
 #### Environnement settings
 
@@ -53,39 +53,39 @@ For adding a new languague :
 $ yarn install
 ```
 
-# :video_game: How to use it ?
+## :video_game: How to use it ?
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 
 ```
 $ yarn run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 
 ```
 $ yarn run build
 ```
 
-### Run your tests
+#### Run your tests
 
 ```
 $ yarn run test
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 
 ```
 $ yarn run lint
 ```
 
-### Run your end-to-end tests
+#### Run your end-to-end tests
 
 ```
 $ yarn run test:e2e
 ```
 
-### Run your unit tests
+#### Run your unit tests
 
 ```
 $ yarn run test:unit
